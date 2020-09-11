@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+        <link rel="stylesheet" type="text/css" href="workshop.css">
+        <script src = "firebase.js"></script>
+        <script src = "main.js"></script>
+    </head>
+    <body>
+        <button class="btn" onclick="mainApp.readUserData()">
+            display data
+        </button>
+        <h1 id="nameHTML">bla</h1>
+        <h1 id="emailHTML">bla</h1>
+        <h1 id="phoneHTML">bla</h1>
+        <h1 id="descriptionHTML">bla</h1>
+        <button class="btn" onclick="mainApp.logOut()">
+            Sign out
+        </button>
+    </body>
+</html>

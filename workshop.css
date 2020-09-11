@@ -1,0 +1,35 @@
+
+.input-container {
+  display: flex;
+  width: 30%;
+  margin-bottom: 15px;
+  align-content: center;
+}
+
+.material-icons {
+  padding: 10px;
+  background: purple;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 2px solid purple;
+}
+
+.btn {
+  background-color: purple;
+  color: white;
+  padding: 15px;
+  border: none;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
