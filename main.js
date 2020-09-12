@@ -16,14 +16,13 @@ var mainApp = {};
 
 
     function logOut() {
-        console.log("clicked");
         firebase.auth().signOut();
     }
 
     function saveUser() {
-        const form = document.querySelector('#personal-info-form');
-        form.addEventListener('submit',(e) => {
-            e.preventDefault();
+        const form = document.querySelector('#personal-info-form');       // returns form the object
+        form.addEventListener('submit', function(event) {                 // submit or click
+            event.preventDefault();                                       // stop forms from automatically submitting when the submit button is clicked, giving you a chance to instead submit the form data to firebase
             firebase.firestore().collection('users').doc(uid).set({
                 email: email,
                 uid: uid,

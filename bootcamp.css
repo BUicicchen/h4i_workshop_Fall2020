@@ -1,0 +1,39 @@
+
+h1 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex; /* flexible display */
+  width: 30%;
+  margin-bottom: 15px;
+  margin-left: 35%;
+}
+
+.material-icons {
+  padding: 10px;
+  background: purple;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px; /* padding of hint text */
+  border: 2px solid purple;
+}
+
+.btn {
+  background-color: purple;
+  color: white;
+  border: none;
+  width: 30%;
+  height: 30px;
+  opacity: 0.9;
+  margin-left: 35%;
+}
+
+.btn:hover {
+  opacity: 1;
+}

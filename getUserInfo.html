@@ -1,16 +1,15 @@
 <html>
     <head>
         <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
-        <link rel="stylesheet" type="text/css" href="icon.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <script src = "firebase.js"></script>
         <script src = "main.js"></script>
-        <link rel="stylesheet" type="text/css" href="workshop.css">
+        <link rel="stylesheet" type="text/css" href="bootcamp.css">
     </head>
     <body>
         <form id="personal-info-form">
-            <h2>Personal Information</h2>
+            <h1>Personal Information</h1>
             <div class="input-container">
                 <i class="material-icons">person</i>
                 <input class="input-field" type="text" placeholder="Full Name" name="name">
@@ -25,10 +24,9 @@
                 <i class="material-icons">description</i>
                 <input class="input-field" type="text" placeholder="Description" name="description">
             </div>
-          
             
-            <div class="input-container">
-                <button class="btn" onclick="mainApp.saveUser()" id="button">Confirm</button>
+            <div>
+                <button class="btn" onclick="mainApp.saveUser()">Confirm</button>
             </div>
             
           </form>
